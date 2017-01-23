@@ -1,0 +1,10 @@
+obj/crypter.o: crypter.cpp crypter.h allocators.h key.h serialize.h \
+ version.h clientversion.h types.h uint256.h hash.h keystore.h sync.h \
+ threadsafety.h util.h tinyformat.h netbase.h compat.h script.h stealth.h \
+ extkey.h state.h bignum.h scrypt.h net.h mruset.h protocol.h \
+ chainparams.h addrman.h bloom.h core.h ringsig.h
+crypter.cpp crypter.h allocators.h key.h serialize.h :
+ version.h clientversion.h types.h uint256.h hash.h keystore.h sync.h :
+ threadsafety.h util.h tinyformat.h netbase.h compat.h script.h stealth.h :
+ extkey.h state.h bignum.h scrypt.h net.h mruset.h protocol.h :
+ chainparams.h addrman.h bloom.h core.h ringsig.h :

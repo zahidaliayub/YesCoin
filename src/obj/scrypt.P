@@ -1,0 +1,10 @@
+obj/scrypt.o: scrypt.cpp scrypt.h util.h uint256.h tinyformat.h netbase.h \
+ compat.h serialize.h allocators.h version.h clientversion.h types.h \
+ net.h mruset.h protocol.h chainparams.h bignum.h state.h sync.h \
+ threadsafety.h addrman.h bloom.h core.h script.h stealth.h key.h hash.h \
+ extkey.h crypter.h keystore.h ringsig.h pbkdf2.h
+scrypt.cpp scrypt.h util.h uint256.h tinyformat.h netbase.h :
+ compat.h serialize.h allocators.h version.h clientversion.h types.h :
+ net.h mruset.h protocol.h chainparams.h bignum.h state.h sync.h :
+ threadsafety.h addrman.h bloom.h core.h script.h stealth.h key.h hash.h :
+ extkey.h crypter.h keystore.h ringsig.h pbkdf2.h :

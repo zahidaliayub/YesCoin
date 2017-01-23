@@ -1,0 +1,28 @@
+obj/smessage.o: smessage.cpp smessage.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h \
+ net.h mruset.h netbase.h compat.h serialize.h allocators.h version.h \
+ clientversion.h types.h protocol.h chainparams.h bignum.h uint256.h \
+ util.h tinyformat.h state.h sync.h threadsafety.h addrman.h bloom.h \
+ core.h script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h \
+ ringsig.h db.h main.h txmempool.h scrypt.h wallet.h ui_interface.h \
+ walletdb.h base58.h lz4/lz4.h init.h txdb.h txdb-leveldb.h eckey.h \
+ lz4/lz4.c xxhash/xxhash.h xxhash/xxhash.c
+smessage.cpp smessage.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h :
+ net.h mruset.h netbase.h compat.h serialize.h allocators.h version.h :
+ clientversion.h types.h protocol.h chainparams.h bignum.h uint256.h :
+ util.h tinyformat.h state.h sync.h threadsafety.h addrman.h bloom.h :
+ core.h script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h :
+ ringsig.h db.h main.h txmempool.h scrypt.h wallet.h ui_interface.h :
+ walletdb.h base58.h lz4/lz4.h init.h txdb.h txdb-leveldb.h eckey.h :
+ lz4/lz4.c xxhash/xxhash.h xxhash/xxhash.c :

@@ -1,0 +1,12 @@
+obj/ringsig.o: ringsig.cpp ringsig.h stealth.h util.h uint256.h \
+ tinyformat.h netbase.h compat.h serialize.h allocators.h version.h \
+ clientversion.h types.h key.h hash.h state.h sync.h threadsafety.h \
+ base58.h chainparams.h bignum.h extkey.h crypter.h keystore.h script.h \
+ main.h core.h txmempool.h net.h mruset.h protocol.h addrman.h bloom.h \
+ scrypt.h
+ringsig.cpp ringsig.h stealth.h util.h uint256.h :
+ tinyformat.h netbase.h compat.h serialize.h allocators.h version.h :
+ clientversion.h types.h key.h hash.h state.h sync.h threadsafety.h :
+ base58.h chainparams.h bignum.h extkey.h crypter.h keystore.h script.h :
+ main.h core.h txmempool.h net.h mruset.h protocol.h addrman.h bloom.h :
+ scrypt.h :

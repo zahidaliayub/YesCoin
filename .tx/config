@@ -1,0 +1,9 @@
+[main]
+host = https://www.transifex.com
+
+[yescore.yesclient_qt]
+file_filter = src/qt/locale/yesclient_<lang>.ts
+source_file = src/qt/locale/yesclient_en.ts
+source_lang = en
+type = QT
+

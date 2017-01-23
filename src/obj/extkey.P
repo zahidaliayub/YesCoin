@@ -1,0 +1,30 @@
+obj/extkey.o: extkey.cpp extkey.h key.h allocators.h serialize.h \
+ version.h clientversion.h types.h uint256.h hash.h crypter.h keystore.h \
+ sync.h threadsafety.h util.h tinyformat.h netbase.h compat.h stealth.h \
+ state.h base58.h chainparams.h bignum.h script.h wallet.h main.h core.h \
+ ringsig.h txmempool.h net.h mruset.h protocol.h addrman.h bloom.h \
+ scrypt.h ui_interface.h walletdb.h db.h smessage.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h \
+ lz4/lz4.h init.h wordlists/english.h wordlists/french.h \
+ wordlists/japanese.h wordlists/spanish.h wordlists/chinese_simplified.h \
+ wordlists/chinese_traditional.h
+extkey.cpp extkey.h key.h allocators.h serialize.h :
+ version.h clientversion.h types.h uint256.h hash.h crypter.h keystore.h :
+ sync.h threadsafety.h util.h tinyformat.h netbase.h compat.h stealth.h :
+ state.h base58.h chainparams.h bignum.h script.h wallet.h main.h core.h :
+ ringsig.h txmempool.h net.h mruset.h protocol.h addrman.h bloom.h :
+ scrypt.h ui_interface.h walletdb.h db.h smessage.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h :
+ lz4/lz4.h init.h wordlists/english.h wordlists/french.h :
+ wordlists/japanese.h wordlists/spanish.h wordlists/chinese_simplified.h :
+ wordlists/chinese_traditional.h :

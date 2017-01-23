@@ -1,0 +1,10 @@
+obj/bloom.o: bloom.cpp bloom.h core.h util.h uint256.h tinyformat.h \
+ netbase.h compat.h serialize.h allocators.h version.h clientversion.h \
+ types.h script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h \
+ sync.h threadsafety.h state.h bignum.h ringsig.h main.h txmempool.h \
+ net.h mruset.h protocol.h chainparams.h addrman.h scrypt.h
+bloom.cpp bloom.h core.h util.h uint256.h tinyformat.h :
+ netbase.h compat.h serialize.h allocators.h version.h clientversion.h :
+ types.h script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h :
+ sync.h threadsafety.h state.h bignum.h ringsig.h main.h txmempool.h :
+ net.h mruset.h protocol.h chainparams.h addrman.h scrypt.h :

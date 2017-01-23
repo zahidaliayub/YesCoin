@@ -1,0 +1,12 @@
+obj/db.o: db.cpp db.h main.h core.h util.h uint256.h tinyformat.h \
+ netbase.h compat.h serialize.h allocators.h version.h clientversion.h \
+ types.h script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h \
+ sync.h threadsafety.h state.h bignum.h ringsig.h txmempool.h net.h \
+ mruset.h protocol.h chainparams.h addrman.h bloom.h scrypt.h \
+ ui_interface.h
+db.cpp db.h main.h core.h util.h uint256.h tinyformat.h :
+ netbase.h compat.h serialize.h allocators.h version.h clientversion.h :
+ types.h script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h :
+ sync.h threadsafety.h state.h bignum.h ringsig.h txmempool.h net.h :
+ mruset.h protocol.h chainparams.h addrman.h bloom.h scrypt.h :
+ ui_interface.h :

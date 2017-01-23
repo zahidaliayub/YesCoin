@@ -1,0 +1,8 @@
+obj/core.o: core.cpp core.h util.h uint256.h tinyformat.h netbase.h \
+ compat.h serialize.h allocators.h version.h clientversion.h types.h \
+ script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h sync.h \
+ threadsafety.h state.h bignum.h ringsig.h
+core.cpp core.h util.h uint256.h tinyformat.h netbase.h :
+ compat.h serialize.h allocators.h version.h clientversion.h types.h :
+ script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h sync.h :
+ threadsafety.h state.h bignum.h ringsig.h :

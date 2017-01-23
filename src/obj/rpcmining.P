@@ -1,0 +1,34 @@
+obj/rpcmining.o: rpcmining.cpp rpcserver.h uint256.h rpcprotocol.h \
+ compat.h json/json_spirit_reader_template.h json/json_spirit_value.h \
+ json/json_spirit_error_position.h json/json_spirit_utils.h \
+ json/json_spirit_writer_template.h main.h core.h util.h tinyformat.h \
+ netbase.h serialize.h allocators.h version.h clientversion.h types.h \
+ script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h sync.h \
+ threadsafety.h state.h bignum.h ringsig.h txmempool.h net.h mruset.h \
+ protocol.h chainparams.h addrman.h bloom.h scrypt.h db.h txdb.h \
+ txdb-leveldb.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h \
+ init.h wallet.h ui_interface.h walletdb.h base58.h smessage.h lz4/lz4.h \
+ miner.h kernel.h
+rpcmining.cpp rpcserver.h uint256.h rpcprotocol.h :
+ compat.h json/json_spirit_reader_template.h json/json_spirit_value.h :
+ json/json_spirit_error_position.h json/json_spirit_utils.h :
+ json/json_spirit_writer_template.h main.h core.h util.h tinyformat.h :
+ netbase.h serialize.h allocators.h version.h clientversion.h types.h :
+ script.h stealth.h key.h hash.h extkey.h crypter.h keystore.h sync.h :
+ threadsafety.h state.h bignum.h ringsig.h txmempool.h net.h mruset.h :
+ protocol.h chainparams.h addrman.h bloom.h scrypt.h db.h txdb.h :
+ txdb-leveldb.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h :
+ init.h wallet.h ui_interface.h walletdb.h base58.h smessage.h lz4/lz4.h :
+ miner.h kernel.h :

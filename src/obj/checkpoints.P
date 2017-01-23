@@ -1,0 +1,24 @@
+obj/checkpoints.o: checkpoints.cpp checkpoints.h net.h mruset.h netbase.h \
+ compat.h serialize.h allocators.h version.h clientversion.h types.h \
+ protocol.h chainparams.h bignum.h uint256.h util.h tinyformat.h state.h \
+ sync.h threadsafety.h addrman.h bloom.h core.h script.h stealth.h key.h \
+ hash.h extkey.h crypter.h keystore.h ringsig.h txdb.h txdb-leveldb.h \
+ main.h txmempool.h scrypt.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h
+checkpoints.cpp checkpoints.h net.h mruset.h netbase.h :
+ compat.h serialize.h allocators.h version.h clientversion.h types.h :
+ protocol.h chainparams.h bignum.h uint256.h util.h tinyformat.h state.h :
+ sync.h threadsafety.h addrman.h bloom.h core.h script.h stealth.h key.h :
+ hash.h extkey.h crypter.h keystore.h ringsig.h txdb.h txdb-leveldb.h :
+ main.h txmempool.h scrypt.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h :

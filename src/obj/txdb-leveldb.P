@@ -1,0 +1,34 @@
+obj/txdb-leveldb.o: txdb-leveldb.cpp \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/env.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/cache.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/filter_policy.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/helpers/memenv/memenv.h \
+ kernel.h main.h core.h util.h uint256.h tinyformat.h netbase.h compat.h \
+ serialize.h allocators.h version.h clientversion.h types.h script.h \
+ stealth.h key.h hash.h extkey.h crypter.h keystore.h sync.h \
+ threadsafety.h state.h bignum.h ringsig.h txmempool.h net.h mruset.h \
+ protocol.h chainparams.h addrman.h bloom.h scrypt.h checkpoints.h txdb.h \
+ txdb-leveldb.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h \
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h
+txdb-leveldb.cpp :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/env.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/status.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/slice.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/cache.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/filter_policy.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/helpers/memenv/memenv.h :
+ kernel.h main.h core.h util.h uint256.h tinyformat.h netbase.h compat.h :
+ serialize.h allocators.h version.h clientversion.h types.h script.h :
+ stealth.h key.h hash.h extkey.h crypter.h keystore.h sync.h :
+ threadsafety.h state.h bignum.h ringsig.h txmempool.h net.h mruset.h :
+ protocol.h chainparams.h addrman.h bloom.h scrypt.h checkpoints.h txdb.h :
+ txdb-leveldb.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/db.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/iterator.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/options.h :
+ /root/COINS/2017YES/shadowYES/src/leveldb/include/leveldb/write_batch.h :

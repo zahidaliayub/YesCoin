@@ -1,0 +1,6 @@
+obj/sync.o: sync.cpp sync.h threadsafety.h util.h uint256.h tinyformat.h \
+ netbase.h compat.h serialize.h allocators.h version.h clientversion.h \
+ types.h state.h
+sync.cpp sync.h threadsafety.h util.h uint256.h tinyformat.h :
+ netbase.h compat.h serialize.h allocators.h version.h clientversion.h :
+ types.h state.h :

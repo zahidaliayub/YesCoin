@@ -1,0 +1,2 @@
+obj/state.o: state.cpp state.h sync.h threadsafety.h
+state.cpp state.h sync.h threadsafety.h :

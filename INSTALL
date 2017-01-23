@@ -1,0 +1,9 @@
+Building YEScoin
+
+See doc/readme-qt.rst for instructions on building YEScoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of YEScoin.
+
+See doc/build-*.txt for instructions on building yescoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of YEScoin.
