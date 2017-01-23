@@ -1,4 +1,4 @@
-![YEScash Logo](https://)
+![YEScash Logo](https://raw.githubusercontent.com/yescoindev/YES-img/master/forum_01.png)
 
 Introduction
 ===========================
