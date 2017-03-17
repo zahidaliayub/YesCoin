@@ -27,7 +27,10 @@ namespace Checkpoints
     MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         ( 0,      uint256("0x00000eca234f07edc98aaf3f2a7b7478dc58992a9cd439323d099c6a590ca2bb") ) // Params().HashGenesisBlock())
-    ;
+      (  1500, uint256("0x0000000000069b7fe5a3c7b3edc35843ecb033368327511fb7271c488b831ec6")) 
+      (  2000, uint256("0x00000000000632cb95991bcb5179c6035286a90567f60b2316dd707e57e5f122")) 
+      (  3000, uint256("0x00000000000f042590a121843e2cd49e5d14b5a0b2b659f5b618c6e59bbe78b8"))
+        ;
 
     // TestNet has no checkpoints
     MapCheckpoints mapCheckpointsTestnet;
